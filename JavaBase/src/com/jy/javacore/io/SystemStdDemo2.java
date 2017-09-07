@@ -15,7 +15,9 @@ public class SystemStdDemo2 {
 
 		PrintStream out = new PrintStream("D:\\github   me\\Java\\JavaBase\\src\\com\\jy\\javacore\\io\\jkl.txt");
 		System.setOut(out);
+
 		@SuppressWarnings("resource")
+
 		Scanner scanner = new Scanner(in);
 		do {
 			String info = scanner.nextLine();
