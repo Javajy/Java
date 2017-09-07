@@ -5,6 +5,7 @@ import java.util.Map;
 
 public class HashMapDemo {
 
+	@SuppressWarnings({ "unchecked", "rawtypes", "unused" })
 	public static void main(String[] args) {
 		// 使用Map接口
 		Map countries = new HashMap();

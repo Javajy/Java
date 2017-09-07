@@ -17,6 +17,7 @@ public class DataByteStreamDemo {
 		dos.writeInt(40);
 		dos.writeLong(13955664269L);
 		dos.close();
+
 		System.out.println("向文件中写数据结束");
 
 		System.out.println("开始从文件中读数据....");
@@ -26,7 +27,7 @@ public class DataByteStreamDemo {
 		System.out.println("age:" + dis.readInt());
 		System.out.println("cell:" + dis.readLong());
 		System.out.println("文件读取结束！");
-
+		dis.close();
 	}
 
 }
